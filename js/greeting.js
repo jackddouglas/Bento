@@ -1,25 +1,25 @@
 // Get the hour
-var today = new Date();
-var Hr = today.getHours();
+var currentDay = new Date();
+var hour = currentDay.getHours();
 
 // Here you can change your name
-var name = "Jack D. Douglas";
+var name = "Jack!";
 
 // Here you can change your greetings
-var gree1 = "Go to Sleep! ";
-var gree2 = "Good morning! ";
-var gree3 = "Good afternoon ";
-var gree4 = "Good evening ";
+var gree1 = "Go to sleep ";
+var gree2 = "Wake up and get to work ";
+var gree3 = "You've made it past noon ";
+var gree4 = "You can almost sleep, ";
 var gree5 = "Good evening ";
 var gree6 = "Good evening ";
 
 // Define the hours of the greetings
-if (Hr >= 23 && Hr < 5) {
+if (hour >= 23 && hour < 5) {
   document.getElementById("greetings").innerText = gree1 + name;
-} else if (Hr >= 6 && Hr < 12) {
+} else if (hour >= 6 && hour < 12) {
   document.getElementById("greetings").innerText = gree2 + name;
-} else if (Hr >= 12 && Hr < 17) {
+} else if (hour >= 12 && hour < 17) {
   document.getElementById("greetings").innerText = gree3 + name;
-} else if (Hr >= 17 && Hr < 23) {
+} else if (hour >= 17 && hour < 23) {
   document.getElementById("greetings").innerText = gree4 + name;
 }

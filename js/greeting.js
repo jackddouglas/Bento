@@ -6,9 +6,9 @@ var hour = currentDay.getHours();
 var name = "Jack!";
 
 // Here you can change your greetings
-var gree1 = "Go to sleep ";
-var gree2 = "Wake up and get to work ";
-var gree3 = "You've made it past noon ";
+var gree1 = "Go to sleep, ";
+var gree2 = "Wake up and get to work, ";
+var gree3 = "You've made it past noon, ";
 var gree4 = "You can almost sleep, ";
 var gree5 = "Good evening ";
 var gree6 = "Good evening ";
